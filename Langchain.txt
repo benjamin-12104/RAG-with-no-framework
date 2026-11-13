@@ -1,0 +1,32 @@
+LLm - the AI brain - GPT-4, claude, llama, tkaes text in and gives text out
+prompt - the instruction you give to the AI. Like asking a question or giving a command
+chain - a sequence of steps - connect prompt -> llm -> output in one flow
+retriver - finds the relevant information form your documents or database before answering 
+memory - store conversation history so the AI remembers what was said earlier
+tools - external capabilities - web search, calculator, calculator, apis, code external
+
+input->prompt->llm->output
+user types a question:
+what is the refund policy
+
+prompt template adds context:
+your are a helpful support agent. answer: {question}
+
+llm process it and generates a clear, structured anser for the user.
+
+an agent is an ai that can think about what to do, decide which tool to use and take action - not just answer text.
+
+llm vs agent 
+plain llm: whats is today's weather> -> makes up an answer(not internet)
+agent: searches teh web -> get real data-+> give  accurate answer
+
+real-life analogy:
+an agent is like a smalrt personal assistant. you say book a flight to delhi on firday - they chenk prices, pick the best option, and confirm the booking for you. they teake real steps to complete the task.
+
+think -> decide -> act -> observe -> respond
+
+tools agents can use:
+web search - calculator - python repl - database query - rest api - file reader
+
+example agent flow: what is 15% of the current of iphone 16 pro? agent searches price -> calculates 15% -> returns result
+
