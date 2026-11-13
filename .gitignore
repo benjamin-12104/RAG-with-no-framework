@@ -1,4 +1,19 @@
-.pdf
-.venv
-.txt
-.git 
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Documents / generated files
+*.pdf
+*.txt
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
